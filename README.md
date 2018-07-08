@@ -1,2 +1,2 @@
 # DiscoolServer
-* Restful node api
+* Restful node api desenvolvida em node
