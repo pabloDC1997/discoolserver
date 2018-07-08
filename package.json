@@ -1,0 +1,31 @@
+{
+  "name": "DiscoolServer",
+  "version": "1.0.0",
+  "description": "Restful node base para app Discool",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [
+    "Restful",
+    "Rest",
+    "Webservice",
+    "Node"
+  ],
+  "author": "Pablo Couto",
+  "license": "ISC",
+  "bugs": {
+    "url": " "
+  },
+  "homepage": " ",
+  "dependencies": {
+    "hapi": "^16.5.0",
+    "joi": "^10.6.0",
+    "mysql": "^2.13.0",
+    "nodemon": "^1.12.1"
+  }
+}
