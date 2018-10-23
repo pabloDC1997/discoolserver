@@ -1,6 +1,4 @@
-module.exports = function(id, name, email, phone, /*born_date,*/ password) {
-
-    console.log(password); //TODO - remove this line
+module.exports = function(id, name, email, phone, born_date, password) {
 
     var insert_user = 'insert into users values ("' + id + '", "' + name + '", "' + email + '", "' + phone + '", null);'
 

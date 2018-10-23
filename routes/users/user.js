@@ -93,8 +93,6 @@ module.exports = function(baseMapping, server, connection, Joi) {
 
             const sql = require('./sql/singup_user')(id, name, email, phone, password);
 
-            console.log(password); //TODO - remove this line 
-
             connection.query(sql.validate,
                 function(error, results, fields) {
                     if (error) throw error;
