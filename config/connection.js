@@ -8,7 +8,7 @@ module.exports = function() {
         host: 'localhost',
         port: '3306',
         user: 'root',
-        password: 'uchiha13',
+        password: '-----', //FIXME
         database: 'discool_db'
     });
 }
